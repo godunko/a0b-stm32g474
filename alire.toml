@@ -17,7 +17,4 @@ generate_c = false
 generate_gpr = true
 
 [[depends-on]]
-a0b_stm32g4xx ="*"
-
-[[pins]]
-a0b_stm32g4xx = { path='../a0b-stm32g4xx' }
+a0b_stm32g4 ="*"
