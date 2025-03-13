@@ -118,27 +118,4 @@ is
    CORDIC                                : constant Interrupt_Number := 100;
    FMAC                                  : constant Interrupt_Number := 101;
 
---     type GPIO_Controller_Identifier is (A, B, C, D, E, F, G)
---       with Size => 4;
---     for GPIO_Controller_Identifier use
---       (A => 0, B => 1, C => 2, D => 3, E => 4, F => 5, G => 6);
---
---     type GPIO_Line_Identifier is range 0 .. 15;
---
---     type Function_Line_Descriptor (<>) is limited private
---       with Preelaborable_Initialization;
-
-private
-
---     type GPIO_Alternative_Function is mod 2 ** 4;
---
---     type Function_Line_Configuration is record
---        Controller           : GPIO_Controller_Identifier;
---        Line                 : GPIO_Line_Identifier;
---        Alternative_Function : GPIO_Alternative_Function;
---     end record with Pack;
---
---     type Function_Line_Descriptor is
---       array (A0B.Types.Unsigned_8 range <>) of Function_Line_Configuration;
-
 end A0B.STM32G4.G474;
