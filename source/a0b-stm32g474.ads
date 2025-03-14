@@ -4,9 +4,10 @@
 --  SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 --
 
---  This package renames STM32G474 packages to simplified scheme.
+--  Root package for STM32G474
 
-with A0B.STM32G4.G474;
+package A0B.STM32G474
+  with Pure, No_Elaboration_Code_All
+is
 
-package A0B.STM32G474 renames A0B.STM32G4.G474
-  with Preelaborate, No_Elaboration_Code_All;
+end A0B.STM32G474;
