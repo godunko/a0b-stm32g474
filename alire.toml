@@ -1,6 +1,6 @@
 name = "a0b_stm32g474"
 description = "A0B: STM32G474 base support and SVD files"
-version = "0.1.0-dev"
+version = "0.1.0"
 
 website = "https://github.com/godunko/a0b-stm32g474"
 authors = ["Vadim Godunko"]
